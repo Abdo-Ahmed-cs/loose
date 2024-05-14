@@ -10,6 +10,6 @@
   box-sizing: border-box;
 }
 
-.log-in {
+.auth {
   @apply w-full h-[100vh] bg-white grid grid-cols-5
 }
