@@ -9,7 +9,7 @@ export default function SideBar() {
     const pathname = usePathname()
     const [accordion, setaccordion] = useState(false)
     return (
-        <div className='h-full w-[240px] inline-block bg-n-10 px-6 py-4'>
+        <div className='min-h-full w-[240px] inline-block bg-n-10 px-6 py-4'>
             <Image
                 src={"/icons/logo.svg"}
                 width={147}
